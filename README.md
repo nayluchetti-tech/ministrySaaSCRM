@@ -18,6 +18,14 @@ This repository contains comprehensive HubSpot CRM documentation, configuration 
 | [Lead Scoring Framework](lead_scoring_documentation.md) | Complete lead scoring model (-2,000 to +2,000 points) |
 | [Lead Scoring AE Summary](lead_scoring_ae_summary.md) | Quick reference guide for Account Executives |
 
+### Marketing & Segmentation Documentation
+
+| Document | Description |
+|----------|-------------|
+| [Marketing Dashboards](marketing_dashboards.md) | Marketing mix dashboard framework with report specifications |
+| [Database Segmentation Strategy](database_segmentation_strategy.md) | Master segments: Ministry SaaS prospects, Ads prospects, Current Leaders |
+| [Campaign Nurture Playbook](campaign_nurture_playbook.md) | Complete nurture campaign framework with email sequences |
+
 ### HubSpot Exports
 
 #### Property Exports (CSV)
@@ -72,6 +80,11 @@ The repository includes 47 screenshot files documenting:
 ### For Sales Team (AEs)
 1. Start with [Lead Scoring AE Summary](lead_scoring_ae_summary.md) for quick reference
 2. Review [Property Dictionary](property_dictionary.md) for key fields
+
+### For Marketing Team
+1. Read [Database Segmentation Strategy](database_segmentation_strategy.md) to understand the three master segments
+2. Review [Campaign Nurture Playbook](campaign_nurture_playbook.md) for nurture campaign templates
+3. Use [Marketing Dashboards](marketing_dashboards.md) to build performance reports
 
 ### For Operations/Admin
 1. Read [HubSpot CRM Documentation](hubspot_crm_documentation.md) for full overview
@@ -142,6 +155,9 @@ ministrySaaSCRM/
 ├── property_dictionary.md              # Property quick reference
 ├── lead_scoring_documentation.md       # Lead scoring framework
 ├── lead_scoring_ae_summary.md          # AE quick reference
+├── marketing_dashboards.md             # Marketing mix dashboards
+├── database_segmentation_strategy.md   # Master segment definitions
+├── campaign_nurture_playbook.md        # Nurture campaign templates
 ├── *.csv                               # HubSpot property exports
 ├── *.xlsx                              # Workflow exports
 ├── *.png                               # Interface screenshots
